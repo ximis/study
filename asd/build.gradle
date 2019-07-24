@@ -1,0 +1,38 @@
+group 'st'
+version ''
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile(
+            "org.glassfish.jersey.containers:jersey-container-servlet:2.11",
+            "org.glassfish.jersey.containers:jersey-container-servlet-core:2.11",
+            "javax.servlet:javax.servlet-api:3.0.1",
+    )
+}
+
+
+
+// Definition source which should include.
+sourceSets {
+    main {
+        java {
+            srcDir 'main/java'
+        }
+        resources {
+            "main/java/webapp"
+        }
+    }
+}
+
+repositories {
+    maven { url 'http://maven.oschina.net/content/groups/public/' }
+}

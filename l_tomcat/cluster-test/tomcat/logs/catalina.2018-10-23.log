@@ -1,0 +1,120 @@
+23-Oct-2018 23:23:56.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.32
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 19:50:35 UTC
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.32.0
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_91-b14
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/supinrong/learn/l_tomcat/cluster-test/tomcat
+23-Oct-2018 23:23:56.666 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/supinrong/learn/l_tomcat/cluster-test/tomcat
+23-Oct-2018 23:23:56.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/supinrong/learn/l_tomcat/cluster-test/tomcat/conf/logging.properties
+23-Oct-2018 23:23:56.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2018 23:23:56.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2018 23:23:56.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2018 23:23:56.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Oct-2018 23:23:56.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Oct-2018 23:23:56.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/supinrong/learn/l_tomcat/cluster-test/tomcat
+23-Oct-2018 23:23:56.667 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/supinrong/learn/l_tomcat/cluster-test/tomcat
+23-Oct-2018 23:23:56.668 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/supinrong/learn/l_tomcat/cluster-test/tomcat/temp
+23-Oct-2018 23:23:56.668 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/supinrong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+23-Oct-2018 23:23:56.788 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-7080"]
+23-Oct-2018 23:23:56.807 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Oct-2018 23:23:56.814 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-7009"]
+23-Oct-2018 23:23:56.815 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Oct-2018 23:23:56.815 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 527 ms
+23-Oct-2018 23:23:56.839 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Oct-2018 23:23:56.839 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.32
+23-Oct-2018 23:23:56.847 信息 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+23-Oct-2018 23:23:56.865 信息 [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.103:4000]
+23-Oct-2018 23:23:56.877 信息 [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+23-Oct-2018 23:23:56.880 严重 [main] org.apache.catalina.tribes.membership.McastServiceImpl.start Unable to join multicast group, make sure your system has multicasting enabled.
+23-Oct-2018 23:23:56.880 严重 [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Unable to start cluster.
+ org.apache.catalina.tribes.ChannelException: java.net.SocketException: Can't assign requested address; No faulty members identified.
+	at org.apache.catalina.tribes.group.ChannelCoordinator.internalStart(ChannelCoordinator.java:201)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.start(ChannelCoordinator.java:105)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.start(ChannelInterceptorBase.java:165)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.start(ChannelInterceptorBase.java:165)
+	at org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor.start(MessageDispatchInterceptor.java:227)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.start(ChannelInterceptorBase.java:165)
+	at org.apache.catalina.tribes.group.GroupChannel.start(GroupChannel.java:465)
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal(SimpleTcpCluster.java:537)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:924)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: java.net.SocketException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastService.start(McastService.java:381)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.internalStart(ChannelCoordinator.java:185)
+	... 22 more
+
+23-Oct-2018 23:23:56.882 严重 [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+ org.apache.catalina.LifecycleException: Failed to start component [StandardServer[7005]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardService[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 9 more
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.ha.tcp.SimpleTcpCluster[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:924)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+Caused by: org.apache.catalina.LifecycleException: org.apache.catalina.tribes.ChannelException: java.net.SocketException: Can't assign requested address; No faulty members identified.
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal(SimpleTcpCluster.java:542)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 14 more
+Caused by: org.apache.catalina.tribes.ChannelException: java.net.SocketException: Can't assign requested address; No faulty members identified.
+	at org.apache.catalina.tribes.group.ChannelCoordinator.internalStart(ChannelCoordinator.java:201)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.start(ChannelCoordinator.java:105)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.start(ChannelInterceptorBase.java:165)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.start(ChannelInterceptorBase.java:165)
+	at org.apache.catalina.tribes.group.interceptors.MessageDispatchInterceptor.start(MessageDispatchInterceptor.java:227)
+	at org.apache.catalina.tribes.group.ChannelInterceptorBase.start(ChannelInterceptorBase.java:165)
+	at org.apache.catalina.tribes.group.GroupChannel.start(GroupChannel.java:465)
+	at org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal(SimpleTcpCluster.java:537)
+	... 15 more
+Caused by: java.net.SocketException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at org.apache.catalina.tribes.membership.McastServiceImpl.start(McastServiceImpl.java:264)
+	at org.apache.catalina.tribes.membership.McastService.start(McastService.java:381)
+	at org.apache.catalina.tribes.group.ChannelCoordinator.internalStart(ChannelCoordinator.java:185)
+	... 22 more
+
+23-Oct-2018 23:23:56.882 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-7080"]
+23-Oct-2018 23:23:56.882 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-7009"]
+23-Oct-2018 23:23:56.882 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Oct-2018 23:23:56.885 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-7080"]
+23-Oct-2018 23:23:56.888 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-7009"]
