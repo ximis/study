@@ -1,0 +1,12 @@
+2019-08-02 14:47:37.682 [abc] FATAL mylog - fatal
+2019-08-02 14:47:37.684 [abc] ERROR mylog - error
+2019-08-02 14:47:37.684 [abc] WARN  mylog - warn
+2019-08-02 14:47:37.684 [abc] INFO  mylog - info
+2019-08-02 14:47:37.684 [abc] DEBUG mylog - debug
+2019-08-02 14:47:37.684 [abc] TRACE mylog - trace
+2019-08-02 14:47:39.835 [abc] FATAL mylog - fatal
+2019-08-02 14:47:39.837 [abc] ERROR mylog - error
+2019-08-02 14:47:39.837 [abc] WARN  mylog - warn
+2019-08-02 14:47:39.837 [abc] INFO  mylog - info
+2019-08-02 14:47:39.837 [abc] DEBUG mylog - debug
+2019-08-02 14:47:39.837 [abc] TRACE mylog - trace
