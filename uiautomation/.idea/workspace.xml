@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4d950e0-1b05-4b4c-8fec-3042eee784e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/HighWayMemery/Computable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/HighWayMemery/ExpensiveFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/HighWayMemery/Memorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/testcode/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/Test3.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Common/SafeOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Common/WebDrvierHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Components/SearchBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GroovyTest/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GroovyTest/TestProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/AlertPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BaseComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPageT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestsDynamicProxy/BaseUIObjectV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestsDynamicProxy/TargetInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestsDynamicProxy/TargetObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestsDynamicProxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cases/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cases/TestForWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cases/TestFrameWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxyVersion/components/BaseComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxyVersion/components/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxyVersion/components/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxyVersion/components/LoginComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxyVersion/support/CompoentProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxyVersion/support/PageFactoryInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/proxyVersion/t.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/support/ComponentFieldDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/support/ComponetProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/support/PageFactoryInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/annotations/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/cases/BasicCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/cases/BasicCase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/cases/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/cases/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/cases/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/common/SafeOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/common/WebDrvierHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/components/BaseComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/components/SearchBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/pages/AlertPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/proxy/PageFactoryInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/proxy/SafeFieldDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/main/java/proxy/SafeLocatingElementHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/src/test/java/TestParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/test2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../uiautomation2/test3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/main/java/app/TimeOutThreadPoolExecutor/TimeOutThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/app/TimeOutThreadPoolExecutor/TimeOutThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../testg/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="uiautomation" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="uiautomation" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="uiautomation" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="uiautomation" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1311#1312#0" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="51" column="93" selection-start-line="51" selection-start-column="93" selection-end-line="51" selection-end-column="93" />
+              <folding>
+                <element signature="e#2098#2099#0" expanded="true" />
+                <element signature="e#2127#2128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/components/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/components/LoginComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/components/BaseComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="53" column="60" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/components/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Common/SafeOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>proxyForLocator</find>
+      <find>getLocator</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/TestsDynamicProxy/BaseUIObjectV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/BaseComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestsDynamicProxy/TargetInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestsDynamicProxy/TargetObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cases/TestForWait.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cases/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/LoginPageT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cases/TestFrameWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/support/ComponentFieldDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/annotations/Path.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proxyVersion/resource/WebDriverHelpler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proxyVersion/components/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proxyVersion/components/LoginComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proxyVersion/components/BaseComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proxyVersion/support/CompoentProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestsDynamicProxy/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proxyVersion/support/PageFactoryInit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/support/ComponetProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/support/PageFactoryInit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proxyVersion/t.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GroovyTest/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/groovy/GroovyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/groovy/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/groovy/Test3.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/GroovyTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/GroovyTest/TestProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/proxyVersion/components/HomePage.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1680" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="uiautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uiautomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="uiautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uiautomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uiautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="uiautomation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="uiautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="uiautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.testng:testng:6.8" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="uiautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.testng:testng:6.8" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-6.8.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="proxyVersion.support" />
+      <recent name="Pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test3">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="uiautomation.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestsDynamicProxy.Test" />
+      <module name="uiautomation.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestsDynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test3" />
+      <module name="uiautomation.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFrameWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cases.TestFrameWork" />
+      <module name="uiautomation.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxyVersion.t" />
+      <module name="uiautomation.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="proxyVersion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.t" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestFrameWork" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4d950e0-1b05-4b4c-8fec-3042eee784e5" name="Default Changelist" comment="" />
+      <created>1569317425629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569317425629</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="0" width="1920" height="1200" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26517573" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32971996" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49946752" visible="true" weight="0.32971996" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005325" side_tool="true" weight="0.32971996" />
+      <window_info anchor="bottom" id="Build" weight="0.32971996" />
+      <window_info anchor="bottom" id="Messages" weight="0.32971996" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2990063" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48057812" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946752" weight="0.39927733" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" weight="0.32960597" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32960597" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TestsDynamicProxy/TargetInterceptor.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cases/TestFrameWork.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/support/PageFactoryInit.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/support/ComponentFieldDecorator.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/support/ComponentFieldDecorator.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cases/TestFrameWork.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/proxyVersion/t.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/proxyVersion/support/CompoentProxy.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/groovy/Test3.groovy</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/groovy/Test3.groovy</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/uiautomation$Test.ic" NAME="Test Coverage Results" MODIFIED="1569490568708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestsDynamicProxy.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>page</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>page.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>field.getType().name</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>field.getType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>field.getDeclaringClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>field.getAnnotatedType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>field.getDeclaringClass();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>field.getClass()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.username</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/8e9423038552821844ba5f7713cc4c1e6d9835b7/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/SearchContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="25" />
+          <folding>
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="631" column="77" lean-forward="true" selection-start-line="631" selection-start-column="77" selection-end-line="632" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/pagefactory/ElementLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Executable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2375">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1551">
+          <caret line="67" column="44" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Components/SearchBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/pagefactory/ElementLocatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/3.3.0/87271c95d5bc9e37e4981c9593ff14d470b6684b/cglib-nodep-3.3.0.jar!/net/sf/cglib/proxy/MethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cglib/cglib-nodep/3.3.0/87271c95d5bc9e37e4981c9593ff14d470b6684b/cglib-nodep-3.3.0.jar!/net/sf/cglib/proxy/Enhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.141.59/8e9423038552821844ba5f7713cc4c1e6d9835b7/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/WebDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="265" column="50" lean-forward="true" selection-start-line="265" selection-start-column="50" selection-end-line="265" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cases/TestForWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestsDynamicProxy/TargetInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/pagefactory/FieldDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePageT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/support/ComponentFieldDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2596#2626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cases/TestFrameWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/resource/WebDriverHelpler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BaseComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Common/WebDrvierHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/annotations/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cases/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPageT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/support/CompoentProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestsDynamicProxy/TargetObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestsDynamicProxy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/support/PageFactoryInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/support/ComponetProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="59" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/support/PageFactoryInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/PageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="84" column="44" selection-start-line="84" selection-start-column="44" selection-end-line="84" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/pagefactory/DefaultFieldDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="97" column="58" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="58" />
+          <folding>
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2004#2005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/t.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.3.11/fdf089bfd5d0b7e86100ac599741f65732fc21d5/groovy-all-2.3.11-sources.jar!/groovy/lang/GroovyObjectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="68" lean-forward="true" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/GroovyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GroovyTest/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IdeaIC2019.1/compile-server/uiautomation_b6454e4d/groovyStubs/uiautomation.main/java-production/GroovyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/Test3.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/GroovyTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GroovyTest/TestProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/3.141.59/7e42f1c3e43d22f2c299b74356137dc6f2f455ec/selenium-support-3.141.59-sources.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="51" column="93" selection-start-line="51" selection-start-column="93" selection-end-line="51" selection-end-column="93" />
+          <folding>
+            <element signature="e#2098#2099#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/components/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/components/BaseComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/components/LoginComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="53" column="60" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxyVersion/components/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Common/SafeOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main|uiautomation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

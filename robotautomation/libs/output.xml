@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on darwin)" generated="20200311 21:53:03.112" rpa="false">
+<suite id="s1" name="Test" source="/Users/supinrong/code/study/robotautomation/libs/test.robot">
+<test id="s1-t1" name="My Test">
+<kw name="Print Data" library="MyLibrary">
+<arguments>
+<arg>sfas</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.137" level="INFO">sfas  is print the data:  1</msg>
+<status status="PASS" starttime="20200311 21:53:03.136" endtime="20200311 21:53:03.137"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.136" endtime="20200311 21:53:03.137" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test 2">
+<kw name="Print Data 2" library="MyLibrary">
+<arguments>
+<arg>who=1</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.137" level="INFO">1  is print data2 the data:  1</msg>
+<status status="PASS" starttime="20200311 21:53:03.137" endtime="20200311 21:53:03.137"></status>
+</kw>
+<kw name="Print Data 2" library="MyLibrary">
+<arguments>
+<arg>aaa</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.138" level="INFO">aaa  is print data2 the data:  1</msg>
+<status status="PASS" starttime="20200311 21:53:03.138" endtime="20200311 21:53:03.138"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.137" endtime="20200311 21:53:03.138" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Test 3">
+<kw name="Return Value" library="MyLibrary">
+<assign>
+<var>${var}</var>
+</assign>
+<msg timestamp="20200311 21:53:03.138" level="INFO">${var} = return's data</msg>
+<status status="PASS" starttime="20200311 21:53:03.138" endtime="20200311 21:53:03.138"></status>
+</kw>
+<kw name="Print Data 2" library="MyLibrary">
+<arguments>
+<arg>${var}</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.139" level="INFO">return's data  is print data2 the data:  1</msg>
+<status status="PASS" starttime="20200311 21:53:03.139" endtime="20200311 21:53:03.139"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.138" endtime="20200311 21:53:03.139" critical="yes"></status>
+</test>
+<test id="s1-t4" name="dynamic lib test">
+<kw name="Test Dynamic Kw" library="DynamicLib">
+<arguments>
+<arg>james</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.139" level="INFO">Running keyword test_dynamic_kw with positional arguments ('james',) and named arguments {}</msg>
+<status status="PASS" starttime="20200311 21:53:03.139" endtime="20200311 21:53:03.140"></status>
+</kw>
+<kw name="Test Dynamic Kw" library="DynamicLib">
+<arguments>
+<arg>tom</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.140" level="INFO">Running keyword test_dynamic_kw with positional arguments ('tom',) and named arguments {}</msg>
+<status status="PASS" starttime="20200311 21:53:03.140" endtime="20200311 21:53:03.140"></status>
+</kw>
+<kw name="Test Dynamic Kw" library="DynamicLib">
+<arguments>
+<arg>jack</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.140" level="INFO">Running keyword test_dynamic_kw with positional arguments ('jack',) and named arguments {}</msg>
+<status status="PASS" starttime="20200311 21:53:03.140" endtime="20200311 21:53:03.140"></status>
+</kw>
+<kw name="Test Dynamic Kw" library="DynamicLib">
+<arguments>
+<arg>data=123</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.140" level="INFO">Running keyword test_dynamic_kw with positional arguments () and named arguments {'data': '123'}</msg>
+<status status="PASS" starttime="20200311 21:53:03.140" endtime="20200311 21:53:03.140"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.139" endtime="20200311 21:53:03.140" critical="yes"></status>
+</test>
+<test id="s1-t5" name="named arguments test">
+<kw name="Print Data Named Arguments" library="MyLibrary">
+<arguments>
+<arg>11</arg>
+<arg>var2=22</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.141" level="INFO">test print named arguments 11 22</msg>
+<status status="PASS" starttime="20200311 21:53:03.141" endtime="20200311 21:53:03.141"></status>
+</kw>
+<kw name="Test Named Arguments" library="DynamicLib">
+<arguments>
+<arg>44</arg>
+<arg>var2=33</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.141" level="INFO">Running keyword test_named_arguments with positional arguments ('44',) and named arguments {'var2': '33'}</msg>
+<status status="PASS" starttime="20200311 21:53:03.141" endtime="20200311 21:53:03.141"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.141" endtime="20200311 21:53:03.142" critical="yes"></status>
+</test>
+<test id="s1-t6" name="named arguments test 2">
+<kw name="Print Data Named Arguments2" library="MyLibrary">
+<arguments>
+<arg>11</arg>
+<arg>var3=33</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.142" level="INFO">test print named arguments 11 test1 33</msg>
+<status status="PASS" starttime="20200311 21:53:03.142" endtime="20200311 21:53:03.142"></status>
+</kw>
+<kw name="Test Named Arguments" library="DynamicLib">
+<arguments>
+<arg>11</arg>
+<arg>var3=33</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.142" level="INFO">Running keyword test_named_arguments with positional arguments ('11',) and named arguments {'var3': '33'}</msg>
+<status status="PASS" starttime="20200311 21:53:03.142" endtime="20200311 21:53:03.143"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.142" endtime="20200311 21:53:03.143" critical="yes"></status>
+</test>
+<test id="s1-t7" name="test variable object">
+<kw name="Print Data" library="MyLibrary">
+<arguments>
+<arg>${a}</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.143" level="INFO">1  is print the data:  1</msg>
+<status status="PASS" starttime="20200311 21:53:03.143" endtime="20200311 21:53:03.143"></status>
+</kw>
+<kw name="Print Data" library="MyLibrary">
+<arguments>
+<arg>${b}</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.144" level="INFO">bbb  is print the data:  1</msg>
+<status status="PASS" starttime="20200311 21:53:03.143" endtime="20200311 21:53:03.144"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.143" endtime="20200311 21:53:03.144" critical="yes"></status>
+</test>
+<test id="s1-t8" name="test variable types">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${var1}</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.144" level="INFO">this is var1</msg>
+<status status="PASS" starttime="20200311 21:53:03.144" endtime="20200311 21:53:03.144"></status>
+</kw>
+<kw name="${i} IN [ @{vls} ]" type="for">
+<kw name="${i} = test 1" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>this is ${i}</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.145" level="INFO">this is test 1</msg>
+<status status="PASS" starttime="20200311 21:53:03.145" endtime="20200311 21:53:03.145"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.144" endtime="20200311 21:53:03.145"></status>
+</kw>
+<kw name="${i} = test 2" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>this is ${i}</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.145" level="INFO">this is test 2</msg>
+<status status="PASS" starttime="20200311 21:53:03.145" endtime="20200311 21:53:03.145"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.145" endtime="20200311 21:53:03.145"></status>
+</kw>
+<kw name="${i} = test 3" type="foritem">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>this is ${i}</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.145" level="INFO">this is test 3</msg>
+<status status="PASS" starttime="20200311 21:53:03.145" endtime="20200311 21:53:03.145"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.145" endtime="20200311 21:53:03.145"></status>
+</kw>
+<status status="PASS" starttime="20200311 21:53:03.144" endtime="20200311 21:53:03.145"></status>
+</kw>
+<kw name="Print Data" library="MyLibrary">
+<arguments>
+<arg>&amp;{vdic}</arg>
+</arguments>
+<msg timestamp="20200311 21:53:03.146" level="FAIL">Keyword 'MyLibrary.Print Data' expected 1 argument, got 0.</msg>
+<status status="FAIL" starttime="20200311 21:53:03.146" endtime="20200311 21:53:03.146"></status>
+</kw>
+<status status="FAIL" starttime="20200311 21:53:03.144" endtime="20200311 21:53:03.146" critical="yes">Keyword 'MyLibrary.Print Data' expected 1 argument, got 0.</status>
+</test>
+<status status="FAIL" starttime="20200311 21:53:03.113" endtime="20200311 21:53:03.146"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="1">Critical Tests</stat>
+<stat pass="7" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="7" fail="1" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

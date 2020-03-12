@@ -3,6 +3,7 @@ package app.TimeOutThreadPoolExecutor;
 import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class TimeOutThreadPoolExecutor extends ThreadPoolExecutor {
 
@@ -77,6 +78,8 @@ public class TimeOutThreadPoolExecutor extends ThreadPoolExecutor {
             _priorityQueue.put(task);
         }
         super.beforeExecute(t, r);
+        ReentrantLock lock = new ReentrantLock();
+        lock.tryLock()
 
     }
 

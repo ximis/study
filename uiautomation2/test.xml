@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTest" verbose="1" >
+    <test name="Regression1"   >
+        <packages>
+            <package name="cases" />
+        </packages>
+    </test>
+</suite>
+
+<!--<suite name="SBMTestSuite"-->
+<!--               parallel="none"-->
+<!--               preserve-order="true" verbose="10">-->
+<!--    <test name="test-success">-->
+<!--        <packages>-->
+<!--            <package name="org.springframework">-->
+<!--                <exclude name="org.springframework.aop.*"/>-->
+<!--                <exclude name="org.springframework.beans.*"/>-->
+<!--            </package>-->
+<!--        </packages>-->
+<!--    </test>-->
+<!--</suite>-->
