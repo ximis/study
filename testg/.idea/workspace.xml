@@ -2,46 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8643ee60-21ba-4ee0-8a6b-b17cf0491eba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../automation/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/app/Common/CLI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/app/Common/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/app/Common/Logs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/app/Common/ThreadLookup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/app/TimeOutThreadPoolExecutor/MyTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/app/TimeOutThreadPoolExecutor/TestTimeOutThreadPoolExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/app/TimeOutThreadPoolExecutor/TimeOutThreadPoolExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../automation/src/test/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConcurrentTest/PriorityBlockingQueueTest/PriorityBlockingQueueTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConcurrentTest/PriorityBlockingQueueTest/PriorityBlockingQueueTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_streams_quickstart_java_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_groovy_groovy_all_2_3_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20140107.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/testg_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/testg_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/HighWayMemery/Computable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/HighWayMemery/ExpensiveFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/HighWayMemery/Memorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation/src/main/java/testcode/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automation/src/main/java/app/TimeOutThreadPoolExecutor/TimeOutThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../automation/src/main/java/app/TimeOutThreadPoolExecutor/TimeOutThreadPoolExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ConcurrentTest/SemaphoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ConcurrentTest/SemaphoreTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ConcurrentTest/Sequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ConcurrentTest/Sequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/GroovyClassLoaderTest/HelloGroovy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/GroovyClassLoaderTest/HelloGroovy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/GroovyEvalTest/GroovyEvalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/GroovyEvalTest/GroovyEvalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -91,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ConcurrentTest/PriorityBlockingQueueTest/PriorityBlockingQueueTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="150">
               <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -112,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/PriorityBlockingQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
+            <state relative-caret-position="2580">
               <caret line="224" column="43" selection-start-line="224" selection-start-column="33" selection-end-line="224" selection-end-column="43" />
               <folding>
                 <element signature="e#7706#7707#0" expanded="true" />
@@ -160,7 +127,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +161,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,9 +277,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,6 +319,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ConcurrentTest/FutureTaskTest/FutureTaskTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConcurrentTest/PriorityBlockingQueueTest/PriorityBlockingQueueTest1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -366,7 +339,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConcurrentTest/PriorityBlockingQueueTest/PriorityBlockingQueueTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="150">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -376,19 +349,12 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/PriorityBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
+        <state relative-caret-position="2580">
           <caret line="224" column="43" selection-start-line="224" selection-start-column="33" selection-end-line="224" selection-end-column="43" />
           <folding>
             <element signature="e#7706#7707#0" expanded="true" />
             <element signature="e#7758#7759#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
